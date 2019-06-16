@@ -1,0 +1,5 @@
+# nano on Windows doesn't like .nanorc files with CRLF line endings
+# Ensure they are committed and checked out with LF line endings
+
+*nanorc* text eol=lf
+*nanorc* text eol=lf
